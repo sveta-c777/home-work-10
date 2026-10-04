@@ -21,6 +21,7 @@
 .container {
  padding: 0 400px;
 }
+
 .section1 {
   background: var(--color-bg-light);
   padding-top: 80px;
@@ -215,4 +216,51 @@ font-weight: 500;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
   font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .section1_menu {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .main {
+    margin: 40px 0 30px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .main_heading {
+    font-size: 32px;
+  }
+
+  .list {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .section4_video {
+    height: auto;
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .main_heading {
+    font-size: 26px;
+  }
+
+  .main_btn {
+    width: 100%; 
+    padding: 15px 20px;
+  }
+
+  .section2_heading,
+  .section4_heading {
+    font-size: 24px;
+  }
 }
