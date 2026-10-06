@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
- :root{
-  --font-main: "Roboto", sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+ 
+:root {
   --color-primary: #34547A;
   --color-white: #FFFFFF;
   --color-text-dark: #000000;
@@ -19,8 +20,13 @@
 
 }
 .container {
- padding: 0 400px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; 
+  box-sizing: border-box;
 }
+
 
 .section1 {
   background: var(--color-bg-light);
@@ -55,8 +61,7 @@
 }
 .main__heading{
  color: var(--color-text-dark);
- font-family: "Roboto", sans-serif;
- font-size: 48px;
+font-family: "Roboto", sans-serif;
  font-weight: 500;
 
 }
@@ -65,7 +70,8 @@
  font-family: "Roboto", sans-serif;
  font-size: 16px;
  font-weight: 400;
- width: 55%;
+ max-width: 600px;
+ width: 100%;
  line-height: 164.063%;
 
 }
@@ -101,8 +107,8 @@ letter-spacing: 1.6px;
  font-weight: 400;
  line-height: 164.063%; 
  text-align: center;
- max-width: 540px;
- width: 75%;
+ max-width: 600px;
+ width: 100%;
  margin: 0 auto;
 }
 .section3{
@@ -170,8 +176,8 @@ font-weight: 500;
  font-weight: 400;
  line-height: 164.063%; 
  text-align: center;
- max-width: 540px;
- width: 75%;
+ max-width: 600px;
+ width: 100%;
  margin: 0 auto;
  margin-bottom: 50px;
 }
